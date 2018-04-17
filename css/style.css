@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body{       
+    font-family: "微軟正黑體", sans-serif;
+}
+
+img
+{
+height: auto;
+max-width: 100%;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;    
+}
+
+.bg_head {
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/dulles02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.wraper{
+    padding:0px;
+	width: 80%;
+	height: 400px;
+	z-index: 5;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    background-color: #fff;
+    color: #000;
+}
+.wraper_info {
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.wraper_file {
+    width: 40%;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.wraper_report {
+    font-family:serif;
+    text-align: right;
+    width: 40%;
+}
+.wraper_report h1{
+    
+    font-size: 70px;
+}
+
+.wraper_report h2{    
+    font-size: 70px;
+    font-size: 28px;
+    font-weight:bold;
+    padding-top:3%;
+    padding-bottom: 8%;
+    letter-spacing:0.1em;
+}
+
+.wraper_file ul {
+    list-style: none;
+}
+
+.wraper_intro{
+    margin-top: 5%;
+}
+
+
+.intro_line{
+    border-top: 1px dashed #ccc;
+    height: 3px;
+    overflow: hidden;
+    margin-bottom: 5%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.Staff_photo {
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+.content {
+    margin: 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.content_title {
+    text-align: right;
+    width: 30%;
+    margin-left: -15%;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.content_title ul {
+    list-style: none;
+}
+.content_center{
+     width: 10%;   
+}
+.content_report {
+    width: 50%;
+}
+.intro_line_short{
+     border-top: 1px dashed #ccc;
+    height: 3px;
+    overflow: hidden;
+    margin-bottom: 5%;
+    width: 30%;
+    margin: 0 auto;   
+}
+.content_slogon {
+    text-align: center;
+    white-space: pre;
+}
+.content_qa{
+        padding: 0 20%;
+        margin-bottom: 5%;
+}
+
+.content_q h2{
+    color:  #0044BB;
+
+      font-family:serif;  
+font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+
+}
+.content_a{
+
+    margin: 2% 0 2% 10% ;
+  
+}
+
+
+.menu{
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    width: 49px;
+    z-index: 1000;
+}
+
+.home{
+    display: block;
+    position: relative;
+    width: 100%;
+
+    padding: 2px 0;
+    text-align: center;
+}
+.icon_home{
+ width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #222;
+    display: block;
+    color: #fff;
+    border-radius: 50%;
+   
+}
